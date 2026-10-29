@@ -1,0 +1,88 @@
+<!-- 
+  Name: Ahmed Sameh Abdallah Barakat
+  Student ID: 225101562
+  Course: FT-WEB-101 - Field Training I
+  University: New Mansoura University (NMU)
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Sameh - Profile Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="nav-container">
+            <h1>Ahmed Sameh</h1>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Theme Toggle Button -->
+        <div class="theme-toggle-container">
+            <button id="themeToggleBtn">🌙 Toggle Dark Mode</button>
+        </div>
+
+        <!-- Hero Section with Photo -->
+        <section class="hero-section">
+            <img src="images/me.jpg.jpeg" alt="Personal photo of Ahmed Sameh" class="profile-photo">
+            <p class="welcome-banner" id="welcomeMessage">Hello! Welcome to my professional portfolio page.</p>
+        </section>
+
+        <!-- Three Cards Section (Flexbox with gap) -->
+        <section class="cards-section" id="skills">
+            <div class="card">
+                <h3>Computer Science</h3>
+                <p>Level 2 student at NMU passionate about software engineering, algorithms, and clean code.</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Building responsive and modern web interfaces using semantic HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>Interests & Hobbies</h3>
+                <p>Exploring C# programming, problem-solving, reading tech articles, and football.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="form-section" id="contact">
+            <h2>Get in Touch</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="visitorName">Your Name:</label>
+                    <input type="text" id="visitorName" name="visitorName" required placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+
+                <button type="submit" class="submit-btn">Say Hello</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ahmed Sameh. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript Link at the end of body -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
